@@ -1,0 +1,64 @@
+{
+  "name": "@web3games-js/cli",
+  "description": "CLI tool to work with web3games chain",
+  "type": "module",
+  "bin": {
+    "web3games":"src/app.js"
+  },
+  "main": "src/app.js",
+  "version": "0.0.1",
+  "preferGlobal": true,
+  "dependencies": {
+    "@polkadot/api": "9.5.1",
+    "chalk": "5.0.1",
+    "commander": "9.3.0",
+    "inquirer": "8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web3gamesofficial/web3games-cli.git"
+  },
+  "keywords": [
+    "web3games",
+    "web3games-js",
+    "web3games-cli"
+  ],
+  "author": "Web3Games Chain Henry",
+  "bugs": {
+    "url": "https://github.com/web3gamesofficial/web3games-cli/issues"
+  },
+  "homepage": "https://github.com/web3gamesofficial/web3games-cli/#readme",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "devDependencies": {
+    "jest": "27.5.1"
+  },
+  "resolutions": {
+    "@polkadot/api": "^9.5.1",
+    "@polkadot/api-augment": "^9.5.1",
+    "@polkadot/api-base": "^9.5.1",
+    "@polkadot/api-contract": "^9.5.1",
+    "@polkadot/api-derive": "^9.5.1",
+    "@polkadot/hw-ledger": "^10.1.10",
+    "@polkadot/keyring": "^10.1.10",
+    "@polkadot/networks": "^10.1.10",
+    "@polkadot/phishing": "^0.18.10",
+    "@polkadot/rpc-augment": "^9.5.1",
+    "@polkadot/rpc-core": "^9.5.1",
+    "@polkadot/rpc-provider": "^9.5.1",
+    "@polkadot/types": "^9.5.1",
+    "@polkadot/types-augment": "^9.5.1",
+    "@polkadot/types-codec": "^9.5.1",
+    "@polkadot/types-create": "^9.5.1",
+    "@polkadot/types-known": "^9.5.1",
+    "@polkadot/types-support": "^9.5.1",
+    "@polkadot/util": "^10.1.10",
+    "@polkadot/util-crypto": "^10.1.10",
+    "@polkadot/wasm-crypto": "^6.3.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "styled-components": "^5.3.1",
+    "typescript": "^4.8.4"
+  }
+}
